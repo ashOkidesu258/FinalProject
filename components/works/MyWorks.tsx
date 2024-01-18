@@ -78,6 +78,7 @@ const MyWorks = () => {
             }`}
           >
             <Image
+              key={index}
               src={work.src}
               alt={`Work ${index + 1}`}
               width={500}
