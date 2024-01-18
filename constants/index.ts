@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
-    {href: '/', key: 'home', label: 'Home'},
-    {href: '/myworks', key: 'works', label: 'My works'},
+    {href: '/components/herosection/Hero.tsx', key: 'home', label: 'Home'},
+    {href: '/works/Myworks', key: 'works', label: 'My works'},
     {href: '/', key: 'contact', label: 'Contact me'},
 ];
 
