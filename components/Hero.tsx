@@ -1,9 +1,8 @@
 import React from "react";
-import akoragudni from "../../public/akoragudni.png";
 import Image from "next/image";
-import styles from "./herosection.module.css";
+import { PROFILE_PICTURE } from "@/constants";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className="max-container padding-container flex justify-center h-screen items-center gap-5 py-10 pb-32 lg:py-20 sd:flex-col snap-center">
       <div className=" w-[45rem] h-52">
@@ -23,7 +22,7 @@ const HeroSection = () => {
       </div>
       <div>
         <Image
-          src={akoragudni}
+          src={PROFILE_PICTURE[0]}
           alt="profile"
           width={200}
           height={200}
@@ -33,4 +32,4 @@ const HeroSection = () => {
     </section>
   );
 };
-export default HeroSection;
+export default Hero;

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { Metadata } from "next";
-import HeroSection from "@/components/herosection/Hero";
-import MyWorks from "@/components/works/Myworks";
+import Hero from "@/components/Hero";
+import MyWorks from "@/components/MyWorks";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <Hero />
       <MyWorks />
     </>
   );

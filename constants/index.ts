@@ -26,6 +26,16 @@ export const IMAGES_ICON = [
   '/myworks.png' 
 ]
 
+export const PROFILE_PICTURE = [
+  '/akoragudni.png'
+]
+
+export const LOGO_PROFILE = [
+  '/logo.png'
+]
+
+
+
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Me',
   links: [

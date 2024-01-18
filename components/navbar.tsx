@@ -1,13 +1,18 @@
 import Image from "next/image";
-import logo from "../../public/logo.png";
 import Link from "next/link";
-import { NAV_LINKS } from "@/constants";
+import { LOGO_PROFILE, NAV_LINKS } from "@/constants";
 
 const Navbar = () => {
   return (
     <nav className="flex justify-between max-container items-center padding-container relative z-30 py-5">
       <Link href="/">
-        <Image className="size-12" src={logo} alt="logonakoni" />
+        <Image
+          className="size-12"
+          src={LOGO_PROFILE[0]}
+          width={100}
+          height={100}
+          alt="logonakoni"
+        />
       </Link>
       <ul className="h-full gap-6 flex flex-row font-xs text-xs">
         {NAV_LINKS.map((link) => (
