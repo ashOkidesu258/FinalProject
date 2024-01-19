@@ -68,6 +68,7 @@ const MyWorks = () => {
       >
         {MY_WORKS.map((work, index) => (
           <motion.div
+            key={index}
             variants={item}
             className={`transform transition duration-500 hover:scale-110 hover:z-50 backdrop-blur-md rounded-2xl w-[200px] h-fit ${
               index === 1 ? "row-span-2" : ""
@@ -78,7 +79,6 @@ const MyWorks = () => {
             }`}
           >
             <Image
-              key={index}
               src={work.src}
               alt={`Work ${index + 1}`}
               width={500}

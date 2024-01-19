@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Metadata } from "next";
-import Hero from "@/components/hero";
-import MyWorks from "@/components/myworks";
+import Hero from "@/components/Hero";
+import MyWorks from "@/components/Mywork";
 
 export default function Home() {
   return (
